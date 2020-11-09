@@ -7,9 +7,9 @@ public class Varasto {
     private double saldo;     // paljonko varastossa on nyt, >= 0
 
     // --- konstruktorit: ---
-    public Varasto(double tilavuus) {  // tilavuus on annettava
+    public Varasto(double tilavuus)   // tilavuus on annettava
         if (tilavuus > 0.0) {
-            this.tilavuus = tilavuus;
+        {    this.tilavuus = tilavuus;
         } else { // virheellinen, nollataan 
             this.tilavuus = 0.0;  // => käyttökelvoton varasto
         }
